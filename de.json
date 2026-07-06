@@ -361,6 +361,7 @@
     "placeholderAgentUrl": "https://api.example.com/v1",
     "placeholderAgentKey": "sk-...",
     "placeholderModelName": "z.B. claude-3-opus",
+    "useDefaultApi": "Standard-API verwenden",
     "toastValidImage": "Bitte wählen Sie eine gültige Bilddatei aus",
     "toastImageSize": "Das Bild muss kleiner als 1 MB sein"
   },
