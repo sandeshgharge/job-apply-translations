@@ -349,10 +349,12 @@
     "placeholderLocation": "z.B. Berlin, Deutschland",
     "changePhoto": "Foto ändern",
     "uploadPhoto": "Foto hochladen",
+    "viewPhoto": "Foto anzeigen",
     "signatureTitle": "Unterschrift",
     "signatureHint": "Laden Sie ein Bild Ihrer handschriftlichen Unterschrift hoch. Wird in Anschreiben und formellen Dokumenten verwendet.",
     "changeSignature": "Unterschrift ändern",
     "uploadSignature": "Unterschrift hochladen",
+    "viewSignature": "Unterschrift anzeigen",
     "aiTitle": "KI-Konfiguration",
     "aiHint": "Konfigurieren Sie Ihren KI-Agenten-Endpunkt für Anschreiben, Lebenslaufhilfe und mehr.",
     "agentUrl": "Agent API-URL",
@@ -363,7 +365,9 @@
     "placeholderModelName": "z.B. claude-3-opus",
     "useDefaultApi": "Standard-API verwenden",
     "toastValidImage": "Bitte wählen Sie eine gültige Bilddatei aus",
-    "toastImageSize": "Das Bild muss kleiner als 1 MB sein"
+    "toastImageSize": "Das Bild muss kleiner als 1 MB sein",
+    "toastNoPhoto": "Kein Profilfoto gefunden",
+    "toastNoSignature": "Keine Unterschrift gefunden"
   },
   "setPassword": {
     "title": "Passwort ändern",
@@ -476,5 +480,11 @@
     "syncingCv": "Lebenslauf wird synchronisiert",
     "syncingCl": "Anschreiben wird synchronisiert",
     "loadingJobs": "Jobs werden geladen"
+  },
+  "footer": {
+    "proprietary": "Propriet\u00e4r",
+    "proprietaryMessage": "Propriet\u00e4r und vertraulich. Die unbefugte Nutzung, Vervielf\u00e4ltigung oder Weitergabe ist strengstens untersagt.",
+    "help": "Hilfe",
+    "language": "Sprache"
   }
 }
