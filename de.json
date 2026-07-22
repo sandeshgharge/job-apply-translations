@@ -36,6 +36,9 @@
     "passwordPlaceholder": "Mind. 6 Zeichen",
     "signInBtn": "Einloggen",
     "signingIn": "Wird eingeloggt…",
+    "loggingInProgress": "Login läuft...",
+    "autoLoginInProgress": "Auto-Login läuft...",
+    "fetchingProfileData": "Profil-Daten werden geladen...",
     "demoHint": "Demo: Beliebige E-Mail + mind. 6 Zeichen Passwort"
   },
   "dashboard": {
@@ -332,7 +335,13 @@
       "placeholderTitle": "z.B. Anschreiben - Senior Entwickler",
       "renameBtn": "Umbenennen",
       "saveAsBtn": "Speichern unter"
-    }
+    },
+    "clearConfirm": "Möchten Sie alle Anschreiben-Daten löschen? Dies kann nicht rückgängig gemacht werden.",
+    "toastCleared": "Anschreiben gelöscht.",
+    "toastSectionGenerated": "Abschnitt generiert!",
+    "toastFullLetterGenerated": "Anschreiben generiert!",
+    "toastGenerationFailed": "Generierung fehlgeschlagen. Bitte erneut versuchen.",
+    "toastProfileMissing": "Profilinformationen nicht verfügbar."
   },
   "profile": {
     "title": "Profil-Informationen",
@@ -364,6 +373,15 @@
     "placeholderAgentKey": "sk-...",
     "placeholderModelName": "z.B. claude-3-opus",
     "useDefaultApi": "Standard-API verwenden",
+    "selectAgent": "Agent auswählen",
+    "addAgentBtn": "Neuen Agent hinzufügen",
+    "editAgentBtn": "Bearbeiten",
+    "dialogAddAgentTitle": "Neuen Agent hinzufügen",
+    "dialogEditAgentTitle": "Agent bearbeiten",
+    "agentName": "Agent Name",
+    "placeholderAgentName": "z.B. Mein eigener Agent",
+    "agentPublic": "Öffentlich?",
+    "btnSaveAgent": "Agent speichern",
     "toastValidImage": "Bitte wählen Sie eine gültige Bilddatei aus",
     "toastImageSize": "Das Bild muss kleiner als 1 MB sein",
     "toastNoPhoto": "Kein Profilfoto gefunden",
@@ -443,7 +461,16 @@
     "btnNextPreview": "Weiter: Vorschau →",
     "toastJobLoaded": "Stellenbeschreibung geladen! Details werden extrahiert...",
     "toastFetchFailed": "Stellenbeschreibung konnte nicht geladen werden",
-    "toastDataExtracted": "Daten für Anschreiben extrahiert!"
+    "toastDataExtracted": "Daten für Anschreiben extrahiert!",
+    "toastExtractFailed": "Stellendaten konnten nicht extrahiert werden",
+    "loadingFetchJob": "Stellenbeschreibung wird geladen...",
+    "loadingScrapeJob": "Stellendaten werden von der Webseite abgerufen...",
+    "loadingExtractData": "KI extrahiert Stellendaten...",
+    "loadingCvPreview": "Lebenslauf-Vorschau wird generiert...",
+    "loadingClPreview": "Anschreiben-Vorschau wird generiert...",
+    "loadingCvDownload": "Lebenslauf-Download läuft...",
+    "loadingClDownload": "Anschreiben-Download läuft...",
+    "loadingApplyJob": "Bewerbung wird gespeichert..."
   },
   "tour": {
     "step": "Schritt",
